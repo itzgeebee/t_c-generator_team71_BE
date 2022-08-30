@@ -51,9 +51,9 @@ class User(AbstractUser):
             :return:
             """
 
-        email_plaintext_message = f"https://zuri-training.github.io" \
-                                  f"/t_c-generator-team71" \
-                                  f"/reset.html#{reset_password_token.key}"
+        email_plaintext_message = (f"https://abshaibu.github.io"
+                                   f"/test-P71/reset.html#"
+                                   f"{reset_password_token.key}")
 
         send_mail(
             # title:
